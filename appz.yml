@@ -11,8 +11,8 @@ build:
   image_template: tomcat9
 
 deploy:
-  context: alpha/DEV
-  replicas: 2
+  context: arjun-cc/DEV
+  replicas: 1
   port: 
    - 8080
 
